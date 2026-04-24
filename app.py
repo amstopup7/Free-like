@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import asyncio
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
-from google.protobuf.json_format import 
+from google.protobuf.json_format import MessageToJson
 import binascii
 import aiohttp
 import requests
